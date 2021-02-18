@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-[DEMO] ( https://sasha39612.github.io/online_store/)
+Демонстрация проекта: [DEMO](https://sasha39612.github.io/online_store/)
 
 Для выполнения задания необходимо использовать Vue или React. Приветствуется использование ES6.
 Для верстки страницы можно использовать фреймворки, такие как bootstrap, material-ui, materialize.
