@@ -1,0 +1,64 @@
+.container__choose {
+  margin-top: 30px;
+}
+
+.container__price {
+  margin-bottom: 60px;
+}
+
+.container__price-limit {
+  display: grid;
+  grid-template-areas:
+  "from to"
+   "chooseFrom chooseTo";
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 100px 100px;
+  gap: 4px;
+  height: 5vh;
+  margin: 0;
+}
+
+from, to, chooseFrom, chooseTo {
+  padding: 20px;
+}
+
+.container__price-from {
+  grid-area: from;
+}
+
+.container__price-to {
+  grid-area: to;
+}
+
+.container__price-chooseFrom { 
+  grid-area: chooseFrom;  
+  width: 100px;  
+}
+
+.container__price-chooseTo { 
+  grid-area: chooseTo; 
+  width: 100px;
+}
+
+.container__currency {
+  margin-bottom: 60px;
+}
+
+.buuton__currency {
+  width: 50px;
+  height: 20px;
+}
+
+.container__sort {
+  display: flex;
+  flex-direction: column;
+}
+
+.increase__price {
+  vertical-align: middle;
+  margin: -2px 0 0 0;
+}
+
+.increase__price-label {
+  margin: 8px;
+}

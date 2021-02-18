@@ -1,0 +1,51 @@
+.newGoods {
+  display: grid;
+  grid-template-areas:
+  "one four"
+  "two four"
+  "three six";
+  grid-template-rows: 30px 30px 30px;
+  grid-template-columns: 200px 200px;
+  gap: 4px;
+  justify-items: start;
+  align-items: flex-end;
+}
+
+  one, two, three, four, five, six {
+  padding: 20px;
+  width: 100px;
+}
+
+.newGoods__name-label {
+  grid-area: one;
+  
+  
+}
+
+.newGoods__name-price {
+  grid-area: two;
+}
+
+.newGoods__picture-container { 
+  grid-area: three; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newGoods__name-description { 
+  grid-area: four; 
+}
+
+#newGoods__description {
+  height: 50px;
+}
+
+.newGoods__submit { 
+  grid-area: six; 
+  width: 178px;
+}
+
+.newGoods__picture {
+  margin-right: 60px;
+}
